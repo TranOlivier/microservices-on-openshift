@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-export OSE_DOMAIN=apps.137.74.85.212:8443
+export OSE_DOMAIN=apps.localhost:8443
 export OSE_CLIENT_PROJECT=msservices
 export OSE_SERVICES_PROJECT=msservices
 export OSE_INFRA_PROJECT=msservices
