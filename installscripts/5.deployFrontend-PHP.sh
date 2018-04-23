@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 oc project $OSE_CLIENT_PROJECT
 oc new-app -e USER_REG_SVC="http://userregsvc-$OSE_SERVICES_PROJECT.$OSE_DOMAIN" \
 -e TWITTER_FEED_SVC="http://twitter-api-$OSE_SERVICES_PROJECT.$OSE_DOMAIN" \

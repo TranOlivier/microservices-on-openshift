@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 oc project $OSE_SERVICES_PROJECT
 
 export EMAIL_SERVICE_URL="http://emailsvc."$OSE_INFRA_PROJECT":8080"

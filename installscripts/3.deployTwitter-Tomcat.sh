@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 oc project $OSE_SERVICES_PROJECT
 oc import-image --from=registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat8-openshift tomcat8 --confirm
 

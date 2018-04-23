@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 oc project $OSE_INFRA_PROJECT
 oc new-app -e MYSQL_USER='app_user' \
 MYSQL_PASSWORD='password' \

@@ -1,4 +1,5 @@
-export OSE_DOMAIN=apps.devday.ocpcloud.com
+#!/usr/bin/env bash
+export OSE_DOMAIN=172.20.12.97:8443
 export OSE_CLIENT_PROJECT=msservices
 export OSE_SERVICES_PROJECT=msservices
 export OSE_INFRA_PROJECT=msservices
